@@ -1,8 +1,14 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html 
+    lang="en-US"
+    >
     <head>
         <meta charset="utc-4" />
         <title>My resume</title>
+       <link 
+            rel="stylesheet"
+            href="./styles.css"
+       />
     </head>
     <body>
         <h1>My resume</h1>
@@ -10,16 +16,19 @@
             src="./assets/Me.jpg"
             alt="My photo"
             width="200"
+            
         />
         <hr />
-        <h3>Contacts</h3>
-        <p>
-            Email: khrisanfova.daria@gmail.com<br />
-            Tel: +1 (416) 417-3910
-        </p>
+        <div class="header" id="contacts">
+            <h3>Contacts</h3>
+            <p>
+                Email: khrisanfova.daria@gmail.com<br />
+                Tel: +1 (416) 417-3910
+            </p>
+          </div>
         <hr />
         <h2>Summary</h2>
-        <p>Technical and Project Management,  Business Systems and Data Analysis professional with over 8 years of expert and managerial experience across Data management and Reporting, Financial Operations, Card Payments, Accounting, Process Quality Assurance, IT Solution Development Lifecycle, Team Management and Customer Support domains.</p>
+        <p draggable="true">Technical and Project Management,  Business Systems and Data Analysis professional with over 8 years of expert and managerial experience across Data management and Reporting, Financial Operations, Card Payments, Accounting, Process Quality Assurance, IT Solution Development Lifecycle, Team Management and Customer Support domains.</p>
         <p>Strategic and critical thinking, result and client-oriented approach, profound root cause analysis skills, advocation for process and/or product efficiency and user-friendliness.</p>
         <p>Exceptional ability to assure mutually fruitful communication between executive, domain, technical and support teams, expertly covering the gap between the “what” and the “how”.</p>
         <p>Proven success in implementing new designs, process improvements, and customized solutions within budget and schedule.</p>
@@ -72,16 +81,18 @@
             <h2>Certificates</h2>
             <img 
                 src="./assets/CBAP.PNG"
+                class="certificate"
                 alt="Certified Business Analysis Professional badge"
                 width="200"
             />
             <img 
                 src="./assets/DT Pract.PNG"
+                class="certificate"
                 alt="Enterprise Design Thinking Practitioner"
                 width="180"
             />
     <footer>
-        <p>@ 2023</p>
+        Copyright © 2023
     </footer>
         </body>
 </html>
